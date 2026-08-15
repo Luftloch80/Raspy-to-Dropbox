@@ -1,0 +1,22 @@
+# Local secrets and machine-specific config
+config.env
+.env
+*.env.local
+
+# Backup artifacts
+*.img
+*.img.gz
+*.img.xz
+*.img.zst
+backups/
+tmp/
+*.log
+
+# rclone tokens (if stored locally)
+rclone.conf
+.rclone.conf
+
+# OS / editor
+.DS_Store
+*.swp
+*~
